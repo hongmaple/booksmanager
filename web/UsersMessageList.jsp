@@ -28,7 +28,7 @@
         <strong class="icon-reorder"> 消息列表</strong>
     </div>
 
-    <form id="subForm1" method="post" action="/UsersMessageSevlet?type=search" name="subForm1">
+    <form id="subForm1" method="post" action="/UsersMessageSevlet?type=search&userId=${loginAdmin.id}" name="subForm1">
 
         <div class="form-group">
             <div class="label">
